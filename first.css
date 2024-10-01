@@ -1,0 +1,84 @@
+*{
+   margin:0;
+   padding:0; 
+}
+
+h1{
+    background-color:pink;
+    color:black;
+    font-style: italic;
+    height:5rem;
+    width :500px;
+    margin-left:35rem;
+
+    text-align:center;
+    line-height:5rem;
+
+}
+.choice :hover{
+    opacity:0.5;
+    cursor:pointer; 
+    
+}
+.choice{
+    height:200px;
+    width:200px;
+    background-color: grey;
+    border:2px solid black;
+    
+    
+}
+img{
+    height:150px;
+    width:150px;
+    margin-top:25px;
+    margin-bottom:15px;
+    margin-left:25px;
+}
+.choices{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:3rem;
+    margin-top:30px;
+}
+
+.score-board{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    margin-top:40px;
+    
+
+}
+.score{
+    height:80px;
+    width:80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:1px solid black;
+    border-radius:50%;
+    background-color: darksalmon;
+}
+#num{
+    font-size: 2rem;
+}
+.message{
+    background-color:pink;
+    color:black;
+    height:50px;
+    width:600px;
+    text-align:center;
+    line-height:50px;
+    margin-left:530px;
+    margin-top:30px;
+    font-size:20px;
+}
+body{
+    background-image:url("abcd.avif");
+    background-size:cover;
+    
+}
